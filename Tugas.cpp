@@ -6,9 +6,9 @@ float Rata_rata(float a, float b){
 }
 string Status_lulus(float r){
     if (r >= 60)
-        return "Lolos";
+        return "Selamat, anda lolos";
     else
-        return "Gagal";
+        return "Maaf, anda gagal";
 }
 int main(){
     float nilBI, nilMT, rerata;
